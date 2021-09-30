@@ -1,18 +1,3 @@
-<<<<<<< HEAD
-import React from 'react';
-import './App.css';
-import TodoList from './components/TodoList';
-
-function App() {
-  return (
-    <div className='todo-app'>
-      <TodoList />
-    </div>
-  );
-}
-
-export default App;
-=======
 import React from "react"
 import TodoItem from "./Componenets/TodoItem"
 import todosData from "./Componenets/todosData"
@@ -54,4 +39,3 @@ class App extends React.Component {
 }
 
 export default App
->>>>>>> b29e7d4ce987d30986039a964ecc39d7cfedf21b
